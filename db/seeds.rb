@@ -6,58 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-  Planet.create(name: "Tatooine",
-  rotation_period: "23",
-  orbital_period: "304",
-  diameter: "10465",
-  climate: "arid",
-  gravity: "1 standard",
-  terrain: "desert",
-  surface_water: "1",
-  population: "200000",
-  image: "Tatooine.jpg",
-  description: ""
-  )
-
-  Planet.create(name: "Alderaan",
-  rotation_period: "24",
-  orbital_period: "364",
-  diameter: "12500",
-  climate: "temperate",
-  gravity: "1 standard",
-  terrain: "grasslands, mountains",
-  surface_water: "40",
-  population: "2000000000",
-  image: "Alderaan.jpg",
-  description: ""
-  )
-
-  Planet.create(name: "Yavin IV",
-  rotation_period: "24",
-  orbital_period: "4818",
-  diameter: "10200",
-  climate: "temperate, tropical",
-  gravity: "1 standard",
-  terrain: "jungle, rainforests, mountains",
-  surface_water: "8",
-  population: "1000",
-  image: "YavinIV.jpg",
-  description: ""
-  )
-
-  Planet.create(name: "Hoth",
-  rotation_period: "23",
-  orbital_period: "549",
-  diameter: "7200",
-  climate: "frozen",
-  gravity: "1.1 standard",
-  terrain: "tundra, ice caves, mountain ranges",
-  surface_water: "100",
-  population: "unknown",
-  image: "Hoth.jpg",
-  description: ""
-  )
-
   planets = [{
     name: "Dagobah",
     rotation_period: "23",
@@ -72,6 +20,55 @@
     description:  "Dagobah is located in the Sluis sector of the Outer Rim Territories.
     Despite the fact that it is located near the Rimma Trade Route, it is reachable
     only by obscure hyperlanes."
+  },
+
+  {name: "Tatooine",
+  rotation_period: "23",
+  orbital_period: "304",
+  diameter: "10465",
+  climate: "arid",
+  gravity: "1 standard",
+  terrain: "desert",
+  surface_water: "1",
+  population: "200000",
+  image: "Tatooine.jpg",
+  description: ""
+  },
+  {name: "Alderaan",
+  rotation_period: "24",
+  orbital_period: "364",
+  diameter: "12500",
+  climate: "temperate",
+  gravity: "1 standard",
+  terrain: "grasslands, mountains",
+  surface_water: "40",
+  population: "2000000000",
+  image: "Alderaan.jpg",
+  description: ""
+  },
+  {name: "Yavin IV",
+  rotation_period: "24",
+  orbital_period: "4818",
+  diameter: "10200",
+  climate: "temperate, tropical",
+  gravity: "1 standard",
+  terrain: "jungle, rainforests, mountains",
+  surface_water: "8",
+  population: "1000",
+  image: "YavinIV.jpg",
+  description: ""
+  },
+  {name: "Hoth",
+  rotation_period: "23",
+  orbital_period: "549",
+  diameter: "7200",
+  climate: "frozen",
+  gravity: "1.1 standard",
+  terrain: "tundra, ice caves, mountain ranges",
+  surface_water: "100",
+  population: "unknown",
+  image: "Hoth.jpg",
+  description: ""
   },
   {
     name: "Bespin",
