@@ -13,7 +13,7 @@
     diameter: "8900",
     climate: "murky",
     gravity: "1 standard",
-    terrain: "swamp, jungles",
+    terrain: "swamp, jungle",
     surface_water: "8",
     population: "unknown",
     image: "Dagobah.jpg",
@@ -64,7 +64,7 @@
   diameter: "7200",
   climate: "frozen",
   gravity: "1.1 standard",
-  terrain: "tundra, ice caves, mountain ranges",
+  terrain: "tundra, ice caves, mountains",
   surface_water: "100",
   population: "unknown",
   image: "Hoth.jpg",
@@ -77,7 +77,7 @@
     diameter: "118000",
     climate: "temperate",
     gravity: "1.5 (surface), 1 standard (Cloud City)",
-    terrain: "gas giant",
+    terrain: "gas giant, urban",
     surface_water: "0",
     population: "6000000",
     image: "Bespin.jpg",
@@ -109,7 +109,7 @@
     diameter: "12120",
     climate: "temperate",
     gravity: "1 standard",
-    terrain: "grasslands, swamps, forests, mountains, city",
+    terrain: "grasslands, swamps, forests, mountains, urban",
     surface_water: "12",
     population: "4500000000",
     image: "Naboo.jpg",
@@ -126,7 +126,7 @@
     diameter: "12240",
     climate: "temperate",
     gravity: "1 standard",
-    terrain: "cityscape, mountains, city",
+    terrain: "cityscape, mountains, urban",
     surface_water: "unknown",
     population: "1000000000000",
     image: "Coruscant.jpg",
@@ -141,7 +141,7 @@
     diameter: "19720",
     climate: "temperate",
     gravity: "1 standard",
-    terrain: "ocean",
+    terrain: "oceans, city",
     surface_water: "100",
     population: "1000000000",
     image: "Kamino.jpg",
@@ -158,7 +158,7 @@
     diameter: "11370",
     climate: "temperate, arid",
     gravity: "0.9 standard",
-    terrain: "rock, desert, mountain, barren",
+    terrain: "rock, desert, mountains, barren",
     surface_water: "5",
     population: "100000000000",
     image: "Geonosis.jpg",
@@ -234,7 +234,7 @@
     diameter: "9100",
     climate: "hot, humid, murky",
     gravity: "0.75 standard",
-    terrain: "fungus forests",
+    terrain: "giant fungi, forests",
     surface_water: "unknown",
     population: "8500000",
     image: "Felucia.jpg",
@@ -282,7 +282,7 @@
     diameter: "13490",
     climate: "arid",
     gravity: "1 standard",
-    terrain: "cityscape, city",
+    terrain: "urban",
     surface_water: "unknown",
     population: "22000000000",
     image: "Eriadu.jpg",
@@ -330,7 +330,7 @@
     diameter: "12150",
     climate: "temperate, murky",
     gravity: "1 standard",
-    terrain: "urban, oceans, swamps, bogs, city",
+    terrain: "urban, oceans, swamps, bogs",
     surface_water: "unknown",
     population: "7000000000",
     image: "Nalhutta.jpg",
@@ -474,6 +474,83 @@
     Republic or the Confederacy of Independent Systems, which made his planet a strategic
     interest for the two warring sides. However, after a diplomatic mission headed by Bail Organa and Jar Jar Binks,
     Katuunko committed his world to support the Republic."
+  },
+  {
+    name: "Malastare",
+    rotation_period: "26",
+    orbital_period: "201",
+    diameter: "18880",
+    climate: "arid, temperate, tropical",
+    gravity: "1.56",
+    terrain: "swamps, desert, jungle, mountains",
+    surface_water: "unknown",
+    population: "2000000000",
+    image: "Malastare.jpg",
+    description: "Malastare has a variety of terrains including forests, deserts, methane lakes, and rivers. This makes the planet a favorite podracing location. There, local and interstellar stars such as the Dug Sebulba compete in events such as the Malastare 100, the Dug Derby, Sebulba's Legacy, the Phoebos Memorial Run and the Vinta Harvest Classic."
+  },
+  {
+    name: "Dathomir",
+    rotation_period: "24",
+    orbital_period: "491",
+    diameter: "10480",
+    climate: "temperate",
+    gravity: "0.9",
+    terrain: "forests, desert, savannas",
+    surface_water: "unknown",
+    population: "5200",
+    image: "Dathomir.png",
+    description: "Dathomir was an obscure planet in the Outer Rim Territories, located in the Quelii sector.
+    It was somewhat smaller than Coruscant in size, and had slightly-below-standard gravity, but the planetary day was close to standard, and the planetary year was long, lasting 491 days. Dathomir had four moons.
+    Dathomir was considered a temperate and beautiful planet by Human standards, with a varied terrain that included coastal lakes and tar-pits, thick forests and snow-capped mountain peaks, powerful rivers and broad savannas, small icecaps and dramatic rift valleys.
+    Even under the New Republic, however, nine-tenths of the planet remained unexplored and uninhabited, with the population limited to a relatively small area along the edge of one of the three main continents, a zone of uplands and river plains bounded on one side by the unsailed ocean and on the other by vast expanses of desert."
+  },
+  {
+    name: "Ryloth",
+    rotation_period: "30",
+    orbital_period: "305",
+    diameter: "10600",
+    climate: "temperate, arid, frozen",
+    gravity: "1",
+    terrain: "mountains, valleys, desert, tundra",
+    surface_water: "5",
+    population: "1500000000",
+    image: "Ryloth.jpg",
+    description: "Ryloth, the second planet in the Ryloth system, possesses a thin, but breathable atmosphere. The planet is orbited by five moons, which have subtle tidal effects on the planet's liquid core and underground springs. It has little or no surface water except for patches of water ice on the night side.
+    It is a planet of extremes: dry, rocky landscapes of deserts, mountain ranges with mist-covered peaks, shadowy valleys, alternated with snowy wastes, joined by lush temperate bands which concentrate much of its population"
+  },
+  {
+    name: "Vulpter",
+    rotation_period: "22",
+    orbital_period: "391",
+    diameter: "14900",
+    climate: "temperate, frozen, artic",
+    gravity: "1",
+    terrain: "urban, barren",
+    surface_water: "unknown",
+    population: "421000000",
+    image: "Vulpter.jpg",
+    description: "Vulpter was the third planet of the Vulpter system in the Deep Core, and the homeworld of the sentient Vulptereen species.
+    Originally an unspoiled world with a wide array of flora and fauna, Vulpter was transformed over the millennia into a massively polluted globe covered in waste and factories.
+    This meant that the planet was unable to sustain itself in terms of agriculture, and was thus entirely reliant on importing foodstuffs from other worlds.
+    Vulpter was a noted producer of starships, and was home to one of the galaxy's largest podracer factories.
+    Several corporations, such as Viper Sensor Intelligence Systems and Arakyd Industries, operated facilities on the planet.
+    Vulpter became part of the galactic community at large between 20,000 and 15,000 BBY. The Vulptereens were among the founding members of the Trade Federation, an allegiance that proved catastrophic for Vulpter's ecosystem.
+    When the Federation seized control of the planet, the organization essentially turned the already-polluted world into an enormous junkyard.
+    Following the establishment of the Galactic Empire, Vulpter was blockaded and cut off from all interplanetary trade, leading to widespread famine on the planet. It was not until the establishment of the New Republic that Vulpter rejoined the galaxy"
+  },
+  {
+    name: "Haruun Kal",
+    rotation_period: "25",
+    orbital_period: "383",
+    diameter: "10120",
+    climate: "temperate",
+    gravity: "0.98",
+    terrain: "toxic cloudsea, plateaus, jungle, volcanoes",
+    surface_water: "unknown",
+    population: "705300",
+    image: "HaruunKal.jpg",
+    description: "The planet Haruun Kal (Above the Clouds in Basic, also known as Haruun Kul or Al'Har I), located in the Dustig sector of the Mid Rim on the Gevarno Loop, is the homeworld of the famed Jedi Master Mace Windu. Its capital is Pelek Baw.
+    All electronics on the planet have to be rubbed down with portaak amber to prevent the planet's various metal-eating and silicate-eating fungi from destroying them; even with the amber, electronics are somewhat vulnerable."
   },
 
 ]
