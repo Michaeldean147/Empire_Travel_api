@@ -16,10 +16,11 @@
     terrain: "swamp, jungle",
     surface_water: "8",
     population: "unknown",
+    population_catagory: "small",
     image: "Dagobah.jpg",
     description:  "Dagobah is located in the Sluis sector of the Outer Rim Territories.
     Despite the fact that it is located near the Rimma Trade Route, it is reachable
-    only by obscure hyperlanes."
+    only by obscure hyperlanes. While the actual population is unknown, it is widely inferred to be quite small due to the planet's harsh environment."
   },
 
   {name: "Tatooine",
@@ -31,6 +32,7 @@
   terrain: "desert",
   surface_water: "1",
   population: "200000",
+  population_catagory: "small",
   image: "Tatooine.jpg",
   description: "Tatooine is a desert world and the first planet in the binary Tatoo star system. It is part of the Arkanis sector in the Outer Rim Territories. It is inhabited by poor locals who mostly farm moisture for a living. Other activities included used equipment retailing and scrap dealing. The planet is on the 5709-DC Shipping Lane, a spur of the Triellus Trade Route, which itself connected to the Sisar Run.
   The planet is not far from the Corellian Run. It has its own navigation system. However, it still plays a role in galactic events, serving as the home of Anakin Skywalker. It was here that Jedi Master Qui-Gon Jinn recognized Anakin's potential to become a Jedi and where he introduced him to Obi-Wan Kenobi, his future master and mentor. Tatooine is also the home of Anakin's son, Luke, where he lived until his early adulthood.
@@ -45,6 +47,7 @@
   terrain: "grasslands, mountains",
   surface_water: "40",
   population: "2000000000",
+  population_catagory: "large",
   image: "Alderaan.jpg",
   description: "Alderaan, formerly located in the Core Worlds, was the second planet in the Alderaan system, and the home of many famous heroes, including Leia Organa Solo, Bail Organa, and Ulic Qel-Droma.
   Renowned galaxy-wide for their planet's unspoiled beauty, refined culture, and commitment to peace, Alderaanians worked with and around the land to preserve as much of the natural surroundings as they could.
@@ -62,11 +65,11 @@
   terrain: "jungle, rainforests, mountains",
   surface_water: "8",
   population: "1000",
+  population_catagory: "small",
   image: "YavinIV.jpg",
   description: "Yavin 4 is one of three habitable moons orbiting the gas giant Yavin.
   It is mainly covered in jungle and rainforest, and despite being remote and unheard of, it played an important role in galactic events, including the seduction of Jedi Knight Exar Kun to the dark side and the destruction of Sith Lord Freedon Nadd during the Great Sith War, a ferocious duel between Jedi and Sith during the Clone Wars, and serving as the base of the Alliance to Restore the Republic during the Battle of Yavin and as a battlefield in other battles of the Galactic Civil War.
-  An attack was launched on the Death Star from this moon.
-  It also became the base for a Jedi Academy after the war ended."
+  An attack was launched on the Death Star from this moon. It also became the base for a Jedi Academy after the war ended."
   },
   {name: "Hoth",
   rotation_period: "23",
@@ -77,10 +80,11 @@
   terrain: "tundra, ice caves, mountains",
   surface_water: "100",
   population: "unknown",
+  population_catagory: "small",
   image: "Hoth.jpg",
   description: "Hoth is the sixth planet of the remote Hoth system.
   A desolate world covered with ice and snow, located in the Anoat sector, a rarely-traveled portion of the Outer Rim Territories, it became famous as the one-time location of the Alliance to Restore the Republic's Echo Base during the Galactic Civil War.
-  The base was discovered by the Empire in 3 ABY, precipitating the Battle of Hoth, a major engagement during which the Rebels suffered heavy casualties and lost Echo Base."
+  The base was discovered by the Empire in 3 ABY, precipitating the Battle of Hoth, a major engagement during which the Rebels suffered heavy casualties and lost Echo Base. Much like Dagobah, the actual population is unknown, but believed to be rather small due to the rough nature of the planet's environment."
   },
   {
     name: "Bespin",
@@ -92,6 +96,7 @@
     terrain: "gas giant, urban",
     surface_water: "0",
     population: "6000000",
+    population_catagory: "small",
     image: "Bespin.jpg",
     description:  "Bespin is a gas giant in the Bespin system of the Anoat sector
     on the Ison Corridor in the Greater Javin region of the Outer Rim Territories.
@@ -109,6 +114,7 @@
     terrain: "forests, mountains, lakes",
     surface_water: "8",
     population: "30000000",
+    population_catagory: "medium",
     image: "Endor.jpg",
     description:  "Endor, also known as Tana among the Ewok species is the cyan gas
     giant planet orbited by the forest moon of Endor. The name 'Endor' is also sometimes
@@ -124,6 +130,7 @@
     terrain: "grasslands, swamps, forests, mountains, urban",
     surface_water: "12",
     population: "4500000000",
+    population_catagory: "large",
     image: "Naboo.jpg",
     description:  "Naboo is a planet that is the sector capital of the Chommell sector near the Outer Rim territories. It is a largely unspoiled world with large plains, swamps and seas.
     It is mostly known as the homeworld of notable historical figures who played major roles in the downfall of the Galactic Republic and the rise of the Galactic Empire, namely Padmé Amidala, Emperor Palpatine and Jar Jar Binks."
@@ -138,6 +145,7 @@
     terrain: "cityscape, mountains, urban",
     surface_water: "unknown",
     population: "1000000000000",
+    population_catagory: "large",
     image: "Coruscant.jpg",
     description:  "Coruscant, originally called Notron, also
     known as Imperial Center or the Queen of the Core, is a planet located in the Galactic Core.
@@ -153,6 +161,7 @@
     terrain: "oceans, city",
     surface_water: "100",
     population: "1000000000",
+    population_catagory: "large",
     image: "Kamino.jpg",
     description:  "Kamino is in a system of 13 planets orbiting an aging star south
     of the Rishi Maze, a dwarf satellite galaxy in a decaying orbit in a loose sector
@@ -170,6 +179,7 @@
     terrain: "rock, desert, mountains, barren",
     surface_water: "5",
     population: "100000000000",
+    population_catagory: "large",
     image: "Geonosis.jpg",
     description:  "Geonosis, called Geonosia by some natives, is the home planet of
     the Geonosians. The desert world was the Confederacy's first capital, hosting its
@@ -185,6 +195,7 @@
     terrain: "scrublands, savanna, desert, canyons, sinkholes",
     surface_water: "0.9",
     population: "95000000",
+    population_catagory: "medium",
     image: "Utapau.jpg",
     description:  "Utapau is an arid sinkhole world in the
     Utapau system of the Tarabba sector in the Outer Rim Territories. Utapau is the
@@ -201,6 +212,7 @@
     terrain: "volcanoes, lava rivers, mountains, caves",
     surface_water: "0",
     population: "20000",
+    population_catagory: "small",
     image: "Mustafar.jpg",
     description:  "A fiery volcanic world where lava is mined like a precious natural resource,
     Mustafar often serves as a place to dispose of unwanted evidence, a quality which drew Black Sun to the planet.
@@ -216,6 +228,7 @@
     terrain: "jungle, forests, lakes, rivers",
     surface_water: "60",
     population: "45000000",
+    population_catagory: "medium",
     image: "Kashyyyk.jpg",
     description:  "With no axial tilt and a perfectly circular orbit, Kashyyyk experiences
     one continuous season. It is composed of a molten metallic core, rocky mantle,
@@ -232,6 +245,7 @@
     terrain: "glaciers, mountains, ice canyons",
     surface_water: "unknown",
     population: "19000000",
+    population_catagory: "medium",
     image: "Mygeeto.jpg",
     description:  "Since Mygeeto was locked in an ice age, giant crystallized glaciation and ice cover its surface, as well as huge crystal spurs.
     Because of this, Mygeeto meant 'gem' in the ancient trade language of the Muuns. Mygeeto's internal fires have long since cooled and have left a colossal deposit of precious stones within its crust and mantle.
@@ -249,6 +263,7 @@
     terrain: "giant fungi, forests",
     surface_water: "unknown",
     population: "8500000",
+    population_catagory: "small",
     image: "Felucia.jpg",
     description:  "Felucia is a largely unsettled terrestrial jungle planet in the Felucia system of the Thanium Worlds in the Outer Rim Territories.
     Located near the junction of the Perlemian Trade Route and Shaltin Tunnels, the world features a hot and humid atmosphere and significant water resources beneath a
@@ -265,6 +280,7 @@
     terrain: "mountains, fields, forests, rock arches",
     surface_water: "unknown",
     population: "10000000",
+    population_catagory: "medium",
     image: "Neimoidia.jpg",
     description:  "The oldest of the Neimoidian purse worlds, Cato Neimoidia is the location of Nute Gunray's secret redoubt.
     The planet is near the Neimoidian homeworld of Neimoidia, also in the Colonies region. Only the richest of the Neimoidians are allowed to live on the planet.
@@ -281,6 +297,7 @@
     terrain: "caves, desert, mountains, volcanoes",
     surface_water: "unknown",
     population: "1400000000",
+    population_catagory: "large",
     image: "Saleucami.jpg",
     description:  "Saleucami is a dim, arid Techno Union world with scattered caldera oases filled with vegetation.
     Its plant life includes unusual bulbous trees and it is located between Kegan and Handooine."
@@ -295,6 +312,7 @@
     terrain: "urban, oceans, forests",
     surface_water: "unknown",
     population: "22000000000",
+    population_catagory: "large",
     image: "Eriadu.jpg",
     description:  "Eriadu is covered in rugged landmasses and small seas. Its surface is full of dirty industry and waste zones that polluted its atmosphere, land and sea.
     The world remains in this polluted state because its legislators are more interested in expanding the planet's urban sprawl to match that of other city worlds like Coruscant rather than investing in atmosphere scrubbers, aquifer purifiers and waste disposal systems.
@@ -310,6 +328,7 @@
     terrain: "plains, urban, hills, forests",
     surface_water: "70",
     population: "3000000000",
+    population_catagory: "large",
     image: "Corellia.jpg",
     description:  "Corellia is a planet, and the homeworld of Han Solo, Wedge Antilles,
     the bounty hunter Dengar, and the Jedi youngling Kalifa. It is known for its ace pilots
@@ -327,6 +346,7 @@
     terrain: "jungle, oceans, urban, swamps",
     surface_water: "60",
     population: "1300000000",
+    population_catagory: "large",
     image: "Rodia.jpg",
     description:  "Rodia is a remote swampy, jungle planet and the homeworld of the Rodians.
     Cities on Rodia are encased with domed environmental shields that allow entry and exit for vehicles and vessels."
@@ -341,6 +361,7 @@
     terrain: "urban, oceans, swamps, bogs",
     surface_water: "unknown",
     population: "7000000000",
+    population_catagory: "large",
     image: "Nalhutta.jpg",
     description:  "Nal Hutta is a hot, swampy planet that is the homeworld to the Hutts.
     The planet is a haven for the criminal elements of the galaxy, located far from galactic authorities.
@@ -356,6 +377,7 @@
     terrain: "oceans, savannas, mountains, grasslands",
     surface_water: "unknown",
     population: "1000",
+    population_catagory: "small",
     image: "Dantooine.jpg",
     description:  "Dantooine is a pleasant world of grasslands, rivers and lakes.
     The planet is located in the Raioballo sector of the Outer Rim at an endpoint of Myto's Arrow, the other endpoint of which was in the Obtrexta sector, though Dantooine itself is still far removed from most galactic traffic.
@@ -372,6 +394,7 @@
     terrain: "rocky islands, oceans",
     surface_water: "98",
     population: "62000000",
+    population_catagory: "medium",
     image: "Bestine.jpg",
     description:  "Bestine IV, or simply Bestine, is an aquacultural planet in the Inner Rim, along the Corellian Trade Spine. Nearly all of its surface is covered by a vast ocean, but there are many rugged islands spread across the planet.
     The original population struggled for years atop the planet's Island Spires to create an island paradise.
@@ -387,6 +410,7 @@
     terrain: "plains, oceans, mesas, desert",
     surface_water: "10",
     population: "4000000000",
+    population_catagory: "large",
     image: "Ord_Mantell.jpg",
     description:  "The planet is famous for its thick, outer cometary cloud, which glows with a pinkish cast when viewed from space, ensuring its place as the site of the Blockade Runners' Derby for nearly 100 years.
     Two large moons and thirteen other satellites orbit the planet (to which was added the Jubilee Wheel), and the cloud cover is tinged with pink when viewed from the planet's surface.
@@ -402,6 +426,7 @@
     terrain: "mountains, oceans, grasslands, desert",
     surface_water: "unknown",
     population: "42000000",
+    population_catagory: "medium",
     image: "Trandosha.jpg",
     description:  "Trandosha is the home planet of the Trandoshans,
     a sentient species renowned for their hunting prowess. The big game hunter Garnac is from this world."
@@ -416,6 +441,7 @@
     terrain: "desert, mountains",
     surface_water: "unknown",
     population: "300000000",
+    population_catagory: "large",
     image: "Socorro.jpg",
     description:  "Socorro is a planet in the Outer Rim Territories with a reputation as a smuggler haven.Its deserts are composed of distinctive black sand.
     The name 'Socorro' in Old Corellian means 'scorched earth'. Much of its attributes are shrouded in mystery...."
@@ -430,6 +456,7 @@
     terrain: "oceans, reefs, islands",
     surface_water: "100",
     population: "27000000000",
+    population_catagory: "large",
     image: "MonCala.jpg",
     description:  "Mon Cala, also known as Mon Calamari or Dac, is an aquatic planet
     that benefits from the light of two suns. Although the planet is inhabited by
@@ -445,6 +472,7 @@
     terrain: "plains, forests",
     surface_water: "40",
     population: "1200000000",
+    population_catagory: "large",
     image: "Chandrila.jpg",
     description:  "Chandrila is the second planet in the Chandrila system of the Bormea sector,
     located in the Core Worlds, along the Perlemian Trade Route. It is the homeworld of
@@ -460,6 +488,7 @@
     terrain: "mountains, volcanoes, rocky deserts",
     surface_water: "5",
     population: "18500000000",
+    population_catagory: "large",
     image: "Sullust.jpg",
     description:  "Sullust is a planet of the galaxy that is home to the Sullustan
     species. During the Clone Wars, it hosted a a battle between the Galactic Republic
@@ -476,6 +505,7 @@
     terrain: "swamps, lakes, forests",
     surface_water: "unknown",
     population: "11000000",
+    population_catagory: "medium",
     image: "Toydaria.png",
     description:  "Toydaria is the homeworld of the Toydarian species. In the last
     few decades of the Galactic Republic, the planet had been governed by a monarchy. During
@@ -494,6 +524,7 @@
     terrain: "swamps, desert, jungle, mountains",
     surface_water: "unknown",
     population: "2000000000",
+    population_catagory: "large",
     image: "Malastare.jpg",
     description: "Malastare has a variety of terrains including forests, deserts, methane lakes, and rivers. This makes the planet a favorite podracing location. There, local and interstellar stars such as Dug Sebulba compete in events such as the Malastare 100, the Dug Derby, Sebulba's Legacy, the Phoebos Memorial Run and the Vinta Harvest Classic."
   },
@@ -507,6 +538,7 @@
     terrain: "forests, desert, savannas",
     surface_water: "unknown",
     population: "5200",
+    population_catagory: "small",
     image: "Dathomir.png",
     description: "Dathomir is an obscure planet in the Outer Rim Territories, located in the Quelii sector.
     It is somewhat smaller than Coruscant in size, and has slightly-below-standard gravity, but the planetary day is close to standard, and the planetary year is long, lasting 491 days. Dathomir has four moons.
@@ -523,6 +555,7 @@
     terrain: "mountains, valleys, desert, tundra",
     surface_water: "5",
     population: "1500000000",
+    population_catagory: "large",
     image: "Ryloth.jpg",
     description: "Ryloth, the second planet in the Ryloth system, possesses a thin, but breathable atmosphere. The planet is orbited by five moons, which have subtle tidal effects on the planet's liquid core and underground springs. It has little or no surface water except for patches of water ice on the night side.
     It is a planet of extremes: dry, rocky landscapes of deserts, mountain ranges with mist-covered peaks, shadowy valleys, alternated with snowy wastes, joined by lush temperate bands which concentrate much of its population"
@@ -537,6 +570,7 @@
     terrain: "urban, barren",
     surface_water: "unknown",
     population: "421000000",
+    population_catagory: "large",
     image: "Vulpter.jpg",
     description: "Vulpter is the third planet of the Vulpter system in the Deep Core, and the homeworld of the sentient Vulptereen species.
     Originally an unspoiled world with a wide array of flora and fauna, Vulpter has been transformed over the millennia into a massively polluted globe covered in waste and factories.
@@ -558,6 +592,7 @@
     terrain: "toxic cloudsea, plateaus, jungle, mountains, volcanoes",
     surface_water: "unknown",
     population: "705300",
+    population_catagory: "small",
     image: "HaruunKal.jpg",
     description: "The planet Haruun Kal (Above the Clouds in Basic, also known as Haruun Kul or Al'Har I), located in the Dustig sector of the Mid Rim on the Gevarno Loop, is the homeworld of the famed Jedi Master Mace Windu. Its capital is Pelek Baw.
     All electronics on the planet have to be rubbed down with portaak amber to prevent the planet's various metal-eating and silicate-eating fungi from destroying them; even with the amber, electronics are somewhat vulnerable."
@@ -572,6 +607,7 @@
     terrain: "lakes, islands, swamps, oceans",
     surface_water: "80",
     population: "500000000",
+    population_catagory: "large",
     image: "GleeAnslem.jpg",
     description: "Glee Anselm is a peaceful water planet in the Mid Rim. The planet's surface is largely covered in water or swamps, with only a few clear landmasses dotting its surface. The planet has very frequent season changes, causing it to be ravaged by intense storms with some of them turning cyclonic. The climate is moderate most of the standard year round."
   },
@@ -585,6 +621,7 @@
     terrain: "oceans, jungle, plateaus",
     surface_water: "unknown",
     population: "3500000000",
+    population_catagory: "large",
     image: "Champala.jpg",
     description: "Champala is located within a star system in the Inner Rim region of the galaxy, on the Hydian Way between Nierport and Drearia. It is considered a water world, though it possesses several small continents covered in jungles and rainforests, with the occasional high plateau. The tidal zones of Champala consist of long, thin strips of land."
   },
@@ -598,6 +635,7 @@
     terrain: "urban, vines",
     surface_water: "unknown",
     population: "500000000000",
+    population_catagory: "large",
     image: "Skako.jpg",
     description: "Skako is an ecumenopolis on the Hydian Way in the galactic core and homeworld to the Skakoan species. Though most of Skako is covered by urban sprawl, some examples of the planet's original ecosystem have been preserved in the form of vast fields of sprawling vines."
   },
@@ -611,6 +649,7 @@
     terrain: "plains, forests, hills, mountains",
     surface_water: "25",
     population: "5000000000",
+    population_catagory: "large",
     image: "Muunilinst.jpg",
     description: "Muunilinst, nicknamed Moneylend, is the temperate & mineral-rich Muun homeworld and the headquarters of the InterGalactic Banking Clan. Muunilinst is a lush world of forests, plains, and tall, jagged mountain peaks. It has a liquid iron core, a strong magnetic field, and has been volcanically active throughout its known history. It's shallow oceans contain hundreds of 'smokers', conical volcanoes built up by powerful vents in the crust. "
   },
@@ -624,6 +663,7 @@
     terrain: "jungle, cliffs, canyons, oceans",
     surface_water: "unknown",
     population: "4000000000",
+    population_catagory: "large",
     image: "Kalee.jpg",
     description: "Kalee is the home planet to the Kaleesh, including General Grievous. It is located on the border of the Kadok Regions.
     Kalee is covered in tropical-looking foliage and beaches. Moss-covered canyons and cliffs fill the landscapes. It is however a harsh world, and wanting for resources. The Kaleesh housing and buildings are very temple-like. The Kaleesh are highly intelligent bipedal hunter-warriors, hunting predators such as mumuu and karabbacs to make ceremonial cloaks and war masks."
